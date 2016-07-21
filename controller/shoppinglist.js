@@ -1,1 +1,1 @@
-
+$scope.updated = new Date();
