@@ -1,5 +1,5 @@
 $scope.updated = new Date().toString();
-// $sce.trustAsHtml(decodeURIComponent($rootScope.documents[v]))
+// $sce.trustAsHtml(decodeURIComponent(documents[v]))
 /*
 		$scope.popUp.show(
 			{
