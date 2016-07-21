@@ -1,1 +1,1 @@
-$scope.updated = new Date();
+$scope.updated = new Date().toString();
