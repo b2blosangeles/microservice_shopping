@@ -1,29 +1,7 @@
 <div class="scrollable">
   <div class="scrollable-content">
     <div class="section max-content-size">
-      <ui-state id='activeTab' default='1'></ui-state>
-
-      <ul class="nav nav-tabs">
-        <li ui-class="{'active': activeTab == 1}">
-          <a ui-set="{'activeTab': 1}">{{getDictionary('aboutus')}}</a>
-        </li>
-        <li ui-class="{'active': activeTab == 2}">
-          <a ui-set="{'activeTab': 2}">{{getDictionary('contactus')}}</a>
-        </li>
-        <li ui-class="{'active': activeTab == 3}">
-          <a ui-set="{'activeTab': 3}">{{getDictionary('service')}}</a>
-        </li>
-      </ul>
-
-      <div ui-if="activeTab == 1">
-		<div data-ng-bind-html="showDocument('aboutus.html')"></div>
-      </div>
-
-      <div ui-if="activeTab == 2">
-		<div data-ng-bind-html="showDocument('contactus.html')"></div>
-      </div>
-
-      <div ui-if="activeTab == 3">
-		<div data-ng-bind-html="showDocument('service.html')"></div>	
-      </div>
+	test shopping
+    </div>
   </div>
+</div>    
